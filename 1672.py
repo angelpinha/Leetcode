@@ -7,7 +7,6 @@ import pytest
 
 class Solution:
     def maximumWealth(self, accounts: list[list[int]]) -> int:
-
         individual_wealth: int
         wealth_list: list = []
 
@@ -20,7 +19,6 @@ class Solution:
 
         max_wealth: int = max(wealth_list)
         return max_wealth
-                
 
 
 # Tests for the given solution
