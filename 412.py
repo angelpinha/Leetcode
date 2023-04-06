@@ -1,5 +1,5 @@
 # 412. Fizz Buzz
-# https://leetcode.com/problems/richest-customer-wealth/
+# https://leetcode.com/problems/fizz-buzz/
 # Solution: Angel Piña
 
 import pytest
@@ -38,4 +38,4 @@ class Tests:
 
 
 if __name__ == "__main__":
-    pytest.main(["-vv", __file__])
+    pytest.main(["-v", __file__])
