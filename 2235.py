@@ -9,6 +9,7 @@ class Solution:
     def sum(self, num1: int, num2: int) -> int:
         return num1 + num2
 
+
 # Tests for the given solution
 class Tests:
     @pytest.mark.parametrize(
