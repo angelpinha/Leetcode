@@ -18,7 +18,7 @@ class Solution:
         one_step = head
         two_steps = head
 
-        while two_steps and two_steps.next:
+        while two_steps and two_steps.next is not None:
             one_step = one_step.next
             two_steps = two_steps.next.next
 
